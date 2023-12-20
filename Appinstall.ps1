@@ -1,0 +1,1 @@
+Start-process -wait -Filepath .\acroRdr.exe -ArgumentList '/sAll' , '/rs', '/ 1', '/msi', '/norestart EULA_ACCEPT=YES' -Passthru
